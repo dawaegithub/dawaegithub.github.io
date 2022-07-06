@@ -1,0 +1,1 @@
+var head,link;"dawaebsc.site"==window.location.hostname&&(head=document.getElementsByTagName("HEAD")[0],(link=document.createElement("link")).rel="stylesheet",link.type="text/css",link.href="css/ZGF3YWVic2Muc2l0ZQ.css",head.appendChild(link));
