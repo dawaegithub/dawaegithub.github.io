@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html lang="en" style="scroll-behavior:smooth"><head>
     <title>Home Page | Da Wae</title>
     <meta charset="utf-8">
@@ -75,17 +76,25 @@
 .nav-link {
 	color: #FFDE59 !important;
 	font-size: 20px;
-	letter-spacing: 0em;
 	font-weight: 500;
 }
-
+.hero-container{
+    height: calc(100vh - 76px);
+    min-height: calc(640px - 76px);
+}
 .hero-container .hero-title {
 	font-weight: 700;
-	font-size: 3em;
-	;
-	letter-spacing: 0.05em;
 	position: relative;
 	color: #FFFFFF;
+font-size:16px !important;
+    line-height:0.9;
+}
+.hero-container .hero-title .text-1{
+	font-size:4.5em;
+}
+    
+    .hero-container .hero-title .text-2{
+	font-size:6.5em;
 }
 
 .hero-container .hero-description {
@@ -199,7 +208,7 @@
 .divider-1 {
 	position: absolute;
 	bottom: 100%;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='31px' viewBox='0 0 1280 140' preserveAspectRatio='none'%3E%3Cg fill='%23FFB459'%3E%3Cpath d='M1280 86c-19.9-17.21-40.08-39.69-79.89-39.69-57.49 0-56.93 46.59-115 46.59-53.61 0-59.76-39.62-115.6-39.62C923.7 53.27 924.26 87 853.89 87c-89.35 0-78.74-87-188.2-87C554 0 543.95 121.8 423.32 121.8c-100.52 0-117.84-54.88-191.56-54.88-77.06 0-100 48.57-151.75 48.57-40 0-60-12.21-80-29.51v54H1280z'/%3E%3C/g%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='31px' viewBox='0 0 1280 140' preserveAspectRatio='none'%3E%3Cg fill='%23669FFF'%3E%3Cpath d='M1280 86c-19.9-17.21-40.08-39.69-79.89-39.69-57.49 0-56.93 46.59-115 46.59-53.61 0-59.76-39.62-115.6-39.62C923.7 53.27 924.26 87 853.89 87c-89.35 0-78.74-87-188.2-87C554 0 543.95 121.8 423.32 121.8c-100.52 0-117.84-54.88-191.56-54.88-77.06 0-100 48.57-151.75 48.57-40 0-60-12.21-80-29.51v54H1280z'/%3E%3C/g%3E%3C/svg%3E");
 	background-size: 50% 32px;
 	height: 32px;
 	z-index: 1;
@@ -209,7 +218,7 @@
 .divider-2 {
 	position: absolute;
 	bottom: 100%;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='31px' viewBox='0 0 1280 140' preserveAspectRatio='none'%3E%3Cg fill='%23E6A250'%3E%3Cpath d='M1280 86c-19.9-17.21-40.08-39.69-79.89-39.69-57.49 0-56.93 46.59-115 46.59-53.61 0-59.76-39.62-115.6-39.62C923.7 53.27 924.26 87 853.89 87c-89.35 0-78.74-87-188.2-87C554 0 543.95 121.8 423.32 121.8c-100.52 0-117.84-54.88-191.56-54.88-77.06 0-100 48.57-151.75 48.57-40 0-60-12.21-80-29.51v54H1280z'/%3E%3C/g%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='31px' viewBox='0 0 1280 140' preserveAspectRatio='none'%3E%3Cg fill='%23FF9728'%3E%3Cpath d='M1280 86c-19.9-17.21-40.08-39.69-79.89-39.69-57.49 0-56.93 46.59-115 46.59-53.61 0-59.76-39.62-115.6-39.62C923.7 53.27 924.26 87 853.89 87c-89.35 0-78.74-87-188.2-87C554 0 543.95 121.8 423.32 121.8c-100.52 0-117.84-54.88-191.56-54.88-77.06 0-100 48.57-151.75 48.57-40 0-60-12.21-80-29.51v54H1280z'/%3E%3C/g%3E%3C/svg%3E");
 	background-size: 50% 32px;
 	height: 32px;
 	z-index: 1;
@@ -408,7 +417,7 @@
 }
 
 .bubble {
-	background: url("/images/image-3.png");
+	background: url("/images/dawae-2.png");
 	height: 200px;
 	position: absolute;
 	width: 200px;
@@ -419,7 +428,7 @@
 
 .about-section {
 	position: relative;
-	background: #FFB459;
+	background: #669FFF;
 }
 
 .about-container {
@@ -465,7 +474,7 @@ padding-bottom:0 !important;
 }
 
 .features-section {
-	background: #FFB459;
+	background: #669FFF;
 }
 
 .features-container {
@@ -497,13 +506,12 @@ display:none;
 }
     
 .features-container .tax-title-2{
-color: #F70305;
+color: #FFFFFF;
 font-size: 2em;
-font-weight: 700;
-letter-spacing: 0;
+font-weight: 500;
 line-height: 1;
 margin-bottom:0 !important;
-    z-index:1;
+    z-index:2;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e
 }
     
 .features-container .tax-description{
@@ -514,7 +522,7 @@ font-weight:400;
 }
 
 .tokenomics-section {
-	background: #E6A250;
+	background: #FF9728;
 }
 
 .tokenomics-container {
@@ -540,31 +548,32 @@ background:#F7DE12;
 }
 
 .tokenomics-container .tax-title{
-color: #F7DE12;
+color: #FFFFFF;
 font-weight: 600;
 line-height: 0.85;
 -webkit-text-stroke-width: 0px;
 -webkit-text-stroke-color: #F2BC1C;
 font-size:5em;
 font-weight:700;
-    z-index:1;
+    z-index:2;
+text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e
 }
     
 .tokenomics-container .tax-title-2{
-color: #F7DE12;
+color: #FFFFFF;
 font-size: 1.5em;
 font-weight: 700;
-letter-spacing: 0;
 line-height: 1;
 margin-bottom:0 !important;
-    z-index:1;
+    z-index:2;
+text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e
 }
     
 .tokenomics-container .tax-description{
 font-size:1em;
 font-weight:400;
-    color:#F7DE12;
-    z-index:1;
+    color:#FFFFFF;
+    z-index:2;
 }
 
 .tokenomics-container .tokenomics-info-table td {
@@ -595,7 +604,7 @@ font-weight:400;
 }
 
 .roadmap-section {
-	background: #FFB459;
+	background: #669FFF;
 }
 
 .roadmap-container {
@@ -616,7 +625,7 @@ font-weight:400;
 }
 
 .swap-section {
-	background: #E6A250;
+	background: #FF9728;
 }
 
 .swap-container {
@@ -664,14 +673,14 @@ font-weight:400;
 }
 
 .footer-section {
-	background: #443017;
+	background: #55320D;
 	position: relative;
 }
 
 .divider-3 {
 	position: absolute;
 	bottom: 100%;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='31px' viewBox='0 0 1280 140' preserveAspectRatio='none'%3E%3Cg fill='%23443017'%3E%3Cpath d='M1280 86c-19.9-17.21-40.08-39.69-79.89-39.69-57.49 0-56.93 46.59-115 46.59-53.61 0-59.76-39.62-115.6-39.62C923.7 53.27 924.26 87 853.89 87c-89.35 0-78.74-87-188.2-87C554 0 543.95 121.8 423.32 121.8c-100.52 0-117.84-54.88-191.56-54.88-77.06 0-100 48.57-151.75 48.57-40 0-60-12.21-80-29.51v54H1280z'/%3E%3C/g%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='31px' viewBox='0 0 1280 140' preserveAspectRatio='none'%3E%3Cg fill='%2355320D'%3E%3Cpath d='M1280 86c-19.9-17.21-40.08-39.69-79.89-39.69-57.49 0-56.93 46.59-115 46.59-53.61 0-59.76-39.62-115.6-39.62C923.7 53.27 924.26 87 853.89 87c-89.35 0-78.74-87-188.2-87C554 0 543.95 121.8 423.32 121.8c-100.52 0-117.84-54.88-191.56-54.88-77.06 0-100 48.57-151.75 48.57-40 0-60-12.21-80-29.51v54H1280z'/%3E%3C/g%3E%3C/svg%3E");
 	background-size: 50% 32px;
 	height: 32px;
 	z-index: 1;
@@ -709,11 +718,13 @@ font-weight:400;
 		font-size: 1.5em;
 	}
 
-	.hero-container .hero-title {
-		font-weight: 700;
-		font-size: 4em;
-		letter-spacing: 0.05em;
-	}
+	.hero-container .hero-title .text-1{
+	font-size:8em;
+}
+    
+    .hero-container .hero-title .text-2{
+	font-size:10em;
+}
 
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 1.125rem;
@@ -732,7 +743,7 @@ font-weight:400;
 .navbar-collapse {
 	padding-top: 76px !important;
 	z-index: 2 !important;
-	background: #996C35 !important;
+	background: #AA641A !important;
 	position: fixed !important;
 	top: 0 !important;
 	left: 0 !important;
@@ -759,7 +770,7 @@ font-weight:400;
 	padding: 12px;
 	color: #FFFFFF !important;
 	text-transform: capitalize;
-	font-size: 1.125em;
+	font-size: 2em;
 	font-weight: 400;
 }
 
@@ -790,6 +801,7 @@ font-weight:400;
 
 	.nav-link {
 		color: #FFFFFF !important;
+        font-size:1.125em
 	}
 
 	.nav-link:hover {
@@ -828,19 +840,19 @@ font-weight:400;
 }
 
 .buy-pushable-button {
-	background: #9E170A;
+	background: #446AAA;
 }
 
 .buy-pushable-button .front-1 {
-	background: #EE230F;
+	background: #669FFF;
 }
 
 .telegram-pushable-button {
-	background: #A8801D;
+	background: #AA641A;
 }
 
 .telegram-pushable-button .front-1 {
-	background: #FDC02C;
+	background: #FF9728;
 }
 
 .background-video-container {
@@ -859,7 +871,7 @@ font-weight:400;
 	z-index: -1;
 	height: calc(100% + 81px);
 	width: 100%;
-	background: rgba(0, 0, 0, 0.25);
+	background: rgba(0, 0, 0, 0.12);
 	top: 0;
 	left: 0;
 }
@@ -962,7 +974,7 @@ font-weight:400;
       <nav class="navbar navbar-expand-lg navbar-dark" id="#home">
         <div class="container" data-aos="fade">
           <a class="navbar-brand d-flex flex-row justify-content-center align-items-center" href="/"><img class="d-none img-fluid me-2" src="" style="max-height:34px">
-            <h1 class="mb-0" style="font-size:1em;font-weight:300;color:#fdc02c;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
+            <h1 class="mb-0" style="font-size:1em;font-weight:300;color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
               $DAWAE
             </h1></a><button id="navToggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -993,15 +1005,15 @@ font-weight:400;
       <section class="hero-section pb-4" style="position:relative">
         <div id="backgroundvideocontainer" class="background-video-container">
           <video class="background-video" autoplay="" muted="" loop="">
-            <source src="images/video-2.webm" type="video/webm">
+            <source src="images/dawae.webm" type="video/webm">
           </video>
         </div>
         <div id="darkbackgroundoverlay" class="dark-background-overlay"></div>
         <div class="hero-container container py-5 d-flex flex-column justify-content-center align-items-center">
-          <div class="row w-100">
-            <div data-aos="fade-right" class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <div class="row">
+            <div data-aos="fade-right" class="col-12 d-flex flex-column justify-content-center align-items-center">
               <h1 class="hero-title text-center">
-                <span style="" class="d-none">Welcome To</span><span style="color:#fdc02c;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">Welcome To<br>Da Wae</span>
+                <span class="text-1" style="color:#FFFFFF;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">Welcome To</span><br><span class="text-2" style="color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">Da Wae</span>
               </h1>
               <p class="hero-description mt-1 d-none">
                 Da Wae is a hyper-deflationary, community-driven token deployed
@@ -1031,7 +1043,7 @@ font-weight:400;
               <div class="d-none d-flex flex-column flex-sm-row mt-3">
                 <a type="button" class="buy-button btn btn-primary m-2" href="https://pancakeswap.finance/swap?outputCurrency=" target="_blank" style="box-shadow:rgba(204,29,222,.25) 0 6px 12px -2px,rgba(204,29,222,.3) 0 3px 7px -3px!important">Buy On Pancakeswap</a><a type="button" class="telegram-button btn btn-primary m-2" href="https://t.me/" target="_blank" style="box-shadow:rgba(76,232,211,.25) 0 6px 12px -2px,rgba(76,232,211,.3) 0 3px 7px -3px!important">Join Our Telegram</a>
               </div>
-              <div class="d-flex flex-column flex-sm-row mt-4">
+              <div class="d-flex flex-column flex-sm-row mt-5">
                 <a href="https://pancakeswap.finance/swap?outputCurrency=0x96cc92de27cdcb873086c03d362f70160eaddfc2" target="_blank"><button class="w-100 pushable buy-pushable-button" data-aos="fade">
                     <span class="front-1">Buy On Pancakeswap</span>
                   </button></a><a href="https://t.me/DaWaeBSC" target="_blank"><button class="w-100 pushable telegram-pushable-button ms-sm-3 mt-3 mt-sm-0" data-aos="fade">
@@ -1039,7 +1051,7 @@ font-weight:400;
                   </button></a>
               </div>
             </div>
-            <div class="overflow-hidden col-hero-image col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5" style="position:relative">
+            <div class="d-none overflow-hidden col-hero-image col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5" style="position:relative">
               <div class="hero-img-wrapper w-100" data-aos="fade-left">
                 <img class="hero-img hero-image img-fluid w-100" src="images/lp-lock.png" style="background:0 0!important;-webkit-filter:drop-shadow(0 0 4px rgb(253 191 44 / 100%));filter:drop-shadow(0 0 4px rgb(253 191 44 / 100%))">
               </div>
@@ -1067,7 +1079,7 @@ font-weight:400;
         </div>
       </section>
       <div style="position:relative">
-        <div id="background-wrap" style="z-index:1;overflow:hidden">
+        <div id="background-wrap" class="d-none" style="z-index:1;overflow:hidden">
           <div class="bubble x1"></div>
           <div class="bubble x2"></div>
           <div class="bubble x3"></div>
@@ -1082,12 +1094,12 @@ font-weight:400;
         <section id="about" class="section about-section">
           <div class="divider-1"></div>
           <div class="section-container about-container container py-5" style="">
-            <h2 class="section-title about-title mt-4 text-center" data-aos="fade" style="color:#FFFFFF;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
+            <h2 class="section-title about-title mt-4 text-center" data-aos="fade" style="color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
               ABOUT
             </h2>
             <div class="row mt-5" style="">
               <div class="col-12 text-center">
-                <h3 class="mb-4" style="font-size:2em;color:#FFFFFF;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">Dis is da wae</h3>
+                <h3 class="mb-4" style="font-size:5em;color:#FFFFFF;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">Dis Is Da Wae</h3>
                 <img class="img-fluid mb-4 d-none" src="images/image-4.jpg" width="353px" style="border-radius:1em">
                 <p class="d-none section-description about-description" data-aos="fade">
                   Da Wae is a hyper-deflationary, community-driven token
@@ -1105,7 +1117,7 @@ font-weight:400;
         </section>
         <section id="features" class="section features-section pt-5">
           <div class="section-container features-container container py-5">
-            <h2 class="section-title tokenomics-title text-center" data-aos="fade" style="color:#FFFFFF;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
+            <h2 class="section-title tokenomics-title text-center" data-aos="fade" style="color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
               FEATURES
             </h2>
             <div class="row mt-5 mb-4">
@@ -1165,7 +1177,12 @@ font-weight:400;
 </div>
 
 <div class="col-12 col-lg-3 mb-4">
-<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;">
+<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;background-image: url('/images/dawae-1.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */">
      <div style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:0;">
        <video class="background-video" autoplay="" muted="" loop="" style="z-index: -2;
     height: 100%;
@@ -1174,16 +1191,21 @@ font-weight:400;
       <source src="/images/video-2.webm" type="video/webm">
       </video>
      </div>
-     <div id="darkbackgroundoverlay" class="dark-background-overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 222, 18,0.66);">
-     </div>
-     <img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
+     
+     <div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.05);">
+     </div><img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
       <span class="tax-title-2 text-center">Verified</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
  </div>
 </div>
 </div>
 
 <div class="col-12 col-lg-3 mb-4">
-<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;">
+<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;background-image: url('/images/dawae-2.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */">
      <div style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:0;">
        <video class="background-video" autoplay="" muted="" loop="" style="z-index: -2;
     height: 100%;
@@ -1192,16 +1214,21 @@ font-weight:400;
       <source src="/images/video-2.webm" type="video/webm">
       </video>
      </div>
-     <div id="darkbackgroundoverlay" class="dark-background-overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 222, 18,0.66);">
-     </div>
-     <img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
+     
+     <div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.05);">
+     </div><img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
       <span class="tax-title-2 text-center">Renounced</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
  </div>
 </div>
 </div>
 
 <div class="col-12 col-lg-3 mb-4">
-<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;">
+<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;background-image: url('/images/dawae-3.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */">
      <div style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:0;">
        <video class="background-video" autoplay="" muted="" loop="" style="z-index: -2;
     height: 100%;
@@ -1210,16 +1237,21 @@ font-weight:400;
       <source src="/images/video-2.webm" type="video/webm">
       </video>
      </div>
-     <div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 222, 18,0.66);">
-     </div>
-     <img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
+     
+     <div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.05);">
+     </div><img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
       <span class="tax-title-2 text-center">LP Locked</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
  </div>
 </div>
 </div>
 
 <div class="col-12 col-lg-3 mb-4">
-<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;">
+<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;background-image: url('/images/dawae-4.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */">
      <div style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:0;">
        <video class="background-video" autoplay="" muted="" loop="" style="z-index: -2;
     height: 100%;
@@ -1228,17 +1260,21 @@ font-weight:400;
       <source src="/images/video-2.webm" type="video/webm">
       </video>
      </div>
-     <div id="darkbackgroundoverlay" class="dark-background-overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 222, 18,0.66);">
-     </div>
-     <img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
-      <span class="tax-title text-center mb-3">🧢</span>
-<span class="tax-title-2 text-center">Low Cap</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
+     
+     <div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.05);">
+     </div><img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
+      <span class="tax-title-2 text-center">Low Cap</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
  </div>
 </div>
 </div>
 
 <div class="col-12 col-lg-3 mb-4">
-<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;">
+<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;background-image: url('/images/dawae-5.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */">
      <div style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:0;">
        <video class="background-video" autoplay="" muted="" loop="" style="z-index: -2;
     height: 100%;
@@ -1247,17 +1283,21 @@ font-weight:400;
       <source src="/images/video-2.webm" type="video/webm">
       </video>
      </div>
-     <div id="darkbackgroundoverlay" class="dark-background-overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 222, 18,0.66);">
-     </div>
-     <img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
-      <span class="tax-title text-center mb-3">🐳</span>
-<span class="tax-title-2 text-center">Anti-Whale</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
+     
+     <div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.05);">
+     </div><img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
+      <span class="tax-title-2 text-center">Anti-Whale</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
  </div>
 </div>
 </div>
     
 <div class="col-12 col-lg-3 mb-4">
-<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;">
+<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;background-image: url('/images/dawae-6.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */">
      <div style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:0;">
        <video class="background-video" autoplay="" muted="" loop="" style="z-index: -2;
     height: 100%;
@@ -1266,17 +1306,21 @@ font-weight:400;
       <source src="/images/video-2.webm" type="video/webm">
       </video>
      </div>
-     <div id="darkbackgroundoverlay" class="dark-background-overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 222, 18,0.66);">
-     </div>
-     <img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
-      <span class="tax-title text-center mb-3">💩</span>
-<span class="tax-title-2 text-center">Anti-Dump</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
+     
+     <div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.05);">
+     </div><img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
+      <span class="tax-title-2 text-center">Anti-Dump</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
  </div>
 </div>
 </div>
 
 <div class="col-12 col-lg-3 mb-4">
-<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;">
+<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;background-image: url('/images/dawae-7.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */">
      <div style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:0;">
        <video class="background-video" autoplay="" muted="" loop="" style="z-index: -2;
     height: 100%;
@@ -1285,17 +1329,21 @@ font-weight:400;
       <source src="/images/video-2.webm" type="video/webm">
       </video>
      </div>
-     <div id="darkbackgroundoverlay" class="dark-background-overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 222, 18,0.66);">
-     </div>
-     <img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
-      <span class="tax-title text-center mb-3">💰</span>
-<span class="tax-title-2 text-center">Buyback</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
+     
+     <div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.05);">
+     </div><img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
+      <span class="tax-title-2 text-center">Buyback</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
  </div>
 </div>
 </div>
 
 <div class="col-12 col-lg-3 mb-4">
-<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;">
+<div class="ratio ratio-1x1 mx-auto" style="max-width:353.33px;"><div class="tax-card d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="position:absolute;background-image: url('/images/dawae-1.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */">
      <div style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:0;">
        <video class="background-video" autoplay="" muted="" loop="" style="z-index: -2;
     height: 100%;
@@ -1304,11 +1352,10 @@ font-weight:400;
       <source src="/images/video-2.webm" type="video/webm">
       </video>
      </div>
-     <div id="darkbackgroundoverlay" class="dark-background-overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 222, 18,0.66);">
-     </div>
-     <img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
-      <span class="tax-title text-center mb-3">🔥</span>
-<span class="tax-title-2 text-center">Deflationary</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
+     
+     <div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.05);">
+     </div><img class="d-none img-fluid mb-4" src="images/team-10.png" style="max-height:100px;z-index:1;">
+      <span class="tax-title-2 text-center">Deflationary</span><span class="d-none tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
  </div>
 </div>
 </div>
@@ -1320,7 +1367,7 @@ font-weight:400;
         </section>
       </div>
       <section id="tokenomics" class="section tokenomics-section">
-        <div id="background-wrap" style="z-index:1;overflow:hidden">
+        <div id="background-wrap" class="d-none" style="z-index:1;overflow:hidden">
           <div class="bubble x1"></div>
           <div class="bubble x2"></div>
           <div class="bubble x3"></div>
@@ -1334,7 +1381,7 @@ font-weight:400;
         </div>
         <div class="divider-2"></div>
         <div class="section-container tokenomics-container container py-5">
-          <h2 class="mt-4 section-title tokenomics-title text-center" data-aos="fade" style="color:#fdc02c;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
+          <h2 class="mt-4 section-title tokenomics-title text-center" data-aos="fade" style="color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
             TOKENOMICS
           </h2>
           <div class="row">
@@ -1342,13 +1389,13 @@ font-weight:400;
               <table class="table table-striped tokenomics-info-table mt-5 mb-4 mx-auto" data-aos="fade">
                 <tbody>
                   <tr>
-                    <td style="font-weight:500;color:#fdbf2c!important">
+                    <td style="font-weight:500;color:#F0EB16!important">
                       Token Name
                     </td>
                     <td style="font-weight:300;text-align:right">Da Wae</td>
                   </tr>
                   <tr>
-                    <td style="font-weight:500;color:#fdbf2c!important">
+                    <td style="font-weight:500;color:#F0EB16!important">
                       Token Ticker
                     </td>
                     <td style="font-weight:300;white-space:nowrap;text-align:right">
@@ -1356,7 +1403,7 @@ font-weight:400;
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:500;color:#fdbf2c!important">
+                    <td style="font-weight:500;color:#F0EB16!important">
                       Token Network
                     </td>
                     <td style="font-weight:300;white-space:nowrap;text-align:right">
@@ -1364,7 +1411,7 @@ font-weight:400;
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:500;color:#fdbf2c!important">
+                    <td style="font-weight:500;color:#F0EB16!important">
                       Total Supply
                     </td>
                     <td style="font-weight:300;text-align:right">
@@ -1387,13 +1434,13 @@ font-weight:400;
     height: 100%;
     width: 100%;
     object-fit: cover;">
-<source src="/images/video-1.webm" type="video/webm">
+<source src="/images/dawae-3.webm" type="video/webm">
 </video>
 </div>
 
-<div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 3, 5,0.5);"></div>
-<span class="tax-title text-center mb-3">4%</span>
-<span class="tax-title-2 text-center mb-3">Liquidity Pool</span><span class="tax-description text-center d-none">2% of every transaction is taken and will be used to for the development of McDick Inu Ecosystem.</span>
+<div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.12);"></div>
+<span class="tax-title text-center mb-3">6%</span>
+<span class="tax-title-2 text-center mb-3">Marketing</span><span class="tax-description text-center d-none">2% of every transaction is taken and will be used to for the development of McDick Inu Ecosystem.</span>
     
 
 
@@ -1407,13 +1454,13 @@ font-weight:400;
     height: 100%;
     width: 100%;
     object-fit: cover;">
-<source src="/images/video-1.webm" type="video/webm">
+<source src="/images/dawae-2.webm" type="video/webm">
 </video>
 </div>
 
-<div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 3, 5,0.5);"></div>
+<div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.12);"></div>
 <span class="tax-title text-center mb-3">3%</span>
-<span class="tax-title-2 text-center mb-3">Development</span><span class="tax-description text-center d-none">2% of every transaction is taken and will be used to for the development of Development Ecosystem.</span>
+<span class="tax-title-2 text-center mb-3">Reflections</span><span class="tax-description text-center d-none">2% of every transaction is taken and will be used to for the development of Development Ecosystem.</span>
     
 
 
@@ -1427,13 +1474,13 @@ font-weight:400;
     height: 100%;
     width: 100%;
     object-fit: cover;">
-<source src="/images/video-1.webm" type="video/webm">
+<source src="/images/dawae-4.webm" type="video/webm">
 </video>
 </div>
 
-<div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(247, 3, 5,0.5);"></div>
-<span class="tax-title text-center mb-3">2%</span>
-<span class="tax-title-2 text-center mb-3">Marketing</span><span class="tax-description text-center d-none">2% of every transaction is taken and will be used to for the development of Development Ecosystem.</span>
+<div id="darkbackgroundoverlay" class="" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background: rgba(0,0,0,0.12);"></div>
+<span class="tax-title text-center mb-3">1%</span>
+<span class="tax-title-2 text-center mb-3">Development</span><span class="tax-description text-center d-none">2% of every transaction is taken and will be used to for the development of Development Ecosystem.</span>
     
 
 
@@ -1446,7 +1493,7 @@ font-weight:400;
         </div>
       </section>
       <section id="roadmap" class="section roadmap-section">
-        <div id="background-wrap" style="z-index:1;overflow:hidden">
+        <div id="background-wrap" class="d-none" style="z-index:1;overflow:hidden">
           <div class="bubble x1"></div>
           <div class="bubble x2"></div>
           <div class="bubble x3"></div>
@@ -1461,44 +1508,44 @@ font-weight:400;
         <div class="divider-1"></div>
         <div class="section-container roadmap-container container py-5">
           <div class="text-center">
-            <h2 class="section-title roadmap-title mt-4" data-aos="fade" style="color:#FFFFFF;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
+            <h2 class="section-title roadmap-title mt-4" data-aos="fade" style="color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
               ROADMAP
             </h2>
             <div class="row mt-5 mb-4">
               <div class="col-12 col-lg-4 text-center py-3">
-                <h4 data-aos="fade" class="aos-init" style="color:#fdc02c;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
+                <h4 data-aos="fade" class="aos-init" style="color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
                   PHASE 1
                 </h4>
                 <ul class="list-unstyled text-small text-center mt-3" data-aos="fade">
                   <li>
                     Telegram and Twitter Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
-                      <path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
+                      <path fill="#F0EB16" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
                     </svg>
                   </li>
                   <li>
                     Initial Marketing Campaign<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
-                      <path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
+                      <path fill="#F0EB16" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
                     </svg>
                   </li>
                   <li>
                     Pancakeswap Fair Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
-                      <path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
+                      <path fill="#F0EB16" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
                     </svg>
                   </li>
                   <li>
                     LP Lock Extension<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
-                      <path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
+                      <path fill="#F0EB16" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
                     </svg>
                   </li>
                   <li>
                     Website V1 Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
-                      <path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
+                      <path fill="#F0EB16" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path>
                     </svg>
                   </li>
                 </ul>
               </div>
               <div class="col-12 col-lg-4 text-center py-3">
-                <h4 data-aos="fade" class="aos-init" style="color:#fdc02c;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
+                <h4 data-aos="fade" class="aos-init" style="color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
                   PHASE 2
                 </h4>
                 <ul class="list-unstyled text-small text-center mt-3" data-aos="fade">
@@ -1510,7 +1557,7 @@ font-weight:400;
                 </ul>
               </div>
               <div class="col-12 col-lg-4 text-center py-3">
-                <h4 data-aos="fade" class="aos-init" style="color:#fdc02c;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
+                <h4 data-aos="fade" class="aos-init" style="color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
                   PHASE 3
                 </h4>
                 <ul class="list-unstyled text-small text-center mt-3" data-aos="fade">
@@ -1526,7 +1573,7 @@ font-weight:400;
         </div>
       </section>
       <section id="swap" class="section swap-section">
-        <div id="background-wrap" style="z-index:1;overflow:hidden">
+        <div id="background-wrap" class="d-none" style="z-index:1;overflow:hidden">
           <div class="bubble x1"></div>
           <div class="bubble x2"></div>
           <div class="bubble x3"></div>
@@ -1540,7 +1587,7 @@ font-weight:400;
         </div>
         <div class="divider-2"></div>
         <div class="section-container swap-container container py-5">
-          <h2 class="mt-4 section-title swap-title text-center" data-aos="fade" style="color:#fdc02c;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
+          <h2 class="mt-4 section-title swap-title text-center" data-aos="fade" style="color:#F0EB16;text-shadow:-1px 0 #7b372e,0 1px #7b372e,1px 0 #7b372e,0 -1px #7b372e">
             BUY $DAWAE
           </h2>
           <div class="row mt-5 mb-4">
